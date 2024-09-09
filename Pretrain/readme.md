@@ -16,9 +16,11 @@
    
    (d) a toy [example](https://github.com/WillHua127/EnzymeFlow/tree/main/Pretrain/data/pdb/6nvl) is provided.
 
-3. configs.py contain all pre-training configurations and hyperparameters.
+   Warning: we have absolute path in metadata.csv, so you might need to change it to your path.
 
-4. Train model using train_ddp.py for parallal training with multi-gpus (we trained with 4gpus).
+4. configs.py contain all pre-training configurations and hyperparameters.
+
+5. Train model using train_ddp.py for parallal training with multi-gpus (we trained with 4gpus).
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 train_ddp.py
 ```
