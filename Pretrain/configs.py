@@ -97,7 +97,6 @@ class Args:
         c_s = 256 #node_embed_size
         c_z = 128 #edge_embed_size
         c_hidden = 16
-        # c_skip = 16
         no_heads = 8
         no_qk_points = 8
         no_v_points = 12
@@ -105,7 +104,6 @@ class Args:
         seq_tfmr_num_layers = 4
         num_blocks = 20
         coordinate_scaling = .1 #r3.coordinate_scaling
-        # p_uncond = 0.2
 
     class pairformer:
         dim_single = 128 #node_embed_size
