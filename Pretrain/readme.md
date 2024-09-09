@@ -10,6 +10,6 @@ Pre-training on PDBBind2020
    
    (b) pocket metadata will be saved into ./data/processed
    
-   (c) metadata.csv will be saved into ./data along with a kd-value label file kdvalue.csv
+   (c) metadata.csv will be saved into ./data along with a label file kdvalue.csv
    
    (d) toy example is provided
