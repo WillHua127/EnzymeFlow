@@ -1,0 +1,2 @@
+uniprotID,CANO_RXN_SMILES,Substrate,Product,Substrate_ID,Product_ID,num_substrate_atoms,num_product_atoms,num_pocket_residues,ec_class
+P07964,O=C(N[C@@H]([C@H](OP(=O)(O)O)C)C(=O)O)CCCCCCSSCCS(=O)(=O)O>>CSCCS(=O)(=O)O.SCCCCCCC(=O)N[C@@H]([C@H](OP(=O)(O)O)C)C(=O)O,O=C(N[C@@H]([C@H](OP(=O)(O)O)C)C(=O)O)CCCCCCSSCCS(=O)(=O)O,SCCCCCCC(=O)N[C@@H]([C@H](OP(=O)(O)O)C)C(=O)O,12616,5647,28,21,32,2
