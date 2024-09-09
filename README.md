@@ -47,7 +47,7 @@
 
    (e) processed produuct in ./data/processed/product
 
-   (f) a toy example is provided.
+   (f) a toy [example](https://github.com/WillHua127/EnzymeFlow/tree/main/data/processed) is provided.
 
 
 
