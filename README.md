@@ -1,4 +1,4 @@
-# EnzymeFlow
+# EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow-Matching and Co-Evolutionary Dynamics
 
 ## Model
 ![enzymeflow](./image/enzymeflow.jpg)
