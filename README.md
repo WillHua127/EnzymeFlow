@@ -1,1 +1,4 @@
 # EnzymeFlow
+
+![plot](./EnzymeFlow.pdf)
+
