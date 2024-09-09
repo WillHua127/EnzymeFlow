@@ -1,9 +1,10 @@
 # EnzymeFlow Hierarchical Pre-training
 
-Pre-training on pdbbind2020
+Pre-training on PDBBind2020
 
+1. Download PDBBind2020 data from [link](https://www.pdbbind-plus.org.cn/download), then Put under ./data/pdb folder.
 
-1. run process_data.py to process rawdata to meatadata.
+2. run process_data.py to process rawdata to meatadata.
 
    (a) read pocket rawdata (pocket pdb and ligand mol2 files) from ./data/pdb
    
