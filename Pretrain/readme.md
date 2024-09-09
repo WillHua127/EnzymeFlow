@@ -1,5 +1,7 @@
 # EnzymeFlow Hierarchical Pre-training
 
+![pretrain](../image/pretrain.jpg)
+
 Pre-training on PDBBind2020
 
 1. Download PDBBind2020 data from [link](https://www.pdbbind-plus.org.cn/download), then put pocket data under ./data/pdb folder.
