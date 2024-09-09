@@ -30,3 +30,5 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 2. Pre-trained model will be saved into ./checkpoint folder.
 
 3. Generated samples will be saved into ./generated folder.
+
+4. Fine-tune pre-trained model on enzyme catalytic pockets.
