@@ -29,7 +29,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 
 1. Training loggings will be saved into ./logger folder.
 
-2. Pre-trained model will be saved into ./checkpoint folder.
+2. Pre-trained models will be saved into ./checkpoint folder.
 
 3. Generated samples will be saved into ./generated folder.
 
