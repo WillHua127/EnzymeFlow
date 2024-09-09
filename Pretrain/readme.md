@@ -25,7 +25,7 @@
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 train_ddp.py
 ```
 
-## After pre-training
+## After Pre-training
 
 1. Training loggings will be saved into ./logger folder.
 
