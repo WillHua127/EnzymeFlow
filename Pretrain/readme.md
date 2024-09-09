@@ -6,10 +6,12 @@ Pre-training on PDBBind2020
 
 2. run process_data.py to process rawdata to meatadata.
 
-   (a) read pocket rawdata (pocket pdb and ligand mol2 files) from ./data/pdb
+   (a) read pocket rawdata (pocket pdb and ligand mol2 files) from ./data/pdb.
    
-   (b) pocket metadata will be saved into ./data/processed
+   (b) pocket metadata will be saved into ./data/processed.
    
-   (c) metadata.csv will be saved into ./data along with a label file kdvalue.csv
+   (c) metadata.csv will be saved into ./data along with a label file kdvalue.csv.
    
-   (d) toy example is provided
+   (d) a toy example is provided.
+
+3. configs.py contain all pre-training configurations and hyperparameters.
