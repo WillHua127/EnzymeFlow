@@ -126,7 +126,7 @@ def main(args):
     metadata_path = os.path.join(args.meta_dir, metadata_file_name)
     print(f'Files will be written to {metadata_path}')
 
-    meta_processed_dir = os.path.join(args.meta_dir, "processed_all")
+    meta_processed_dir = os.path.join(args.meta_dir, "processed")
     if not os.path.isdir(meta_processed_dir):
         os.makedirs(meta_processed_dir, exist_ok=True)
 
