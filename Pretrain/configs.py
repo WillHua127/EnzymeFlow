@@ -16,8 +16,8 @@ class Args:
     logger_dir = './logger'
     ckpt_dir = './checkpoint'
     pretrain_ckpt_path = './checkpoint/2024-09-02-21-52-16/epoch882'
-    ckpt_from_foldflow = True
-    foldflow_ckpt = './weights/foldflow.ckpt'
+    ckpt_from_foldflow = False
+    foldflow_ckpt = None
     early_stopping = 50
     seed = 42
     
