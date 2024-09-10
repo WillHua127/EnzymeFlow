@@ -18,7 +18,7 @@ geomstats==2.7.0
 tqdm==4.65.0
 ```
 
-### Model Training
+## Model Training
 
 1. ```configs.py``` contain all training configurations and hyperparameters.
 
@@ -31,7 +31,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 
 
 
-### Model Inference
+## Model Inference
 
 ### 1. RFDiff-AA
    
