@@ -3,6 +3,20 @@
 ## Model
 ![enzymeflow](./image/enzymeflow.jpg)
 
+### Requirement
+```
+torch==2.4.1 (>=2.0.0)
+numpy==1.24.4
+pytorch-warmup==0.1.1
+POT==0.9.4
+rdkit==2023.9.5
+biopython==1.84
+torch_geometric==2.4.0
+tmtools==0.2.0
+scipy==1.14.0
+geomstats==2.7.0
+tqdm==4.65.0
+```
 
 ### Model Training
 
