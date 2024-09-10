@@ -39,7 +39,11 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
    
 For RFDiffAA and LigandMPNN, please refer to [RFDiffAA-official](https://github.com/baker-laboratory/rf_diffusion_all_atom) and [LigandMPNN-official](https://github.com/dauparas/LigandMPNN?tab=readme-ov-file). For each enzyme-reaction pair in evaluation data, we use [RFDiffAA](https://github.com/baker-laboratory/rf_diffusion_all_atom) with default params to generate 100 catalytic pockets (with 32 residues) for each unique substrate. Then we use [LigandMPNN](https://github.com/dauparas/LigandMPNN?tab=readme-ov-file) to perform sequence prediction (inverse folding) on the generated catalytic pockets post-hoc.
 
-### 2. ESM3
+### 2. Enzyme Commission Classifcation
+
+Baselines like [RFDiffAA](https://github.com/baker-laboratory/rf_diffusion_all_atom) or others do not generate EC-class for the design of catalytic pockets. We use CLEAN to infer the EC-class of sequence representations of these pockets. For CLEAN, please refer to [CLEAN-official](https://github.com/tttianhao/CLEAN) or [CLEAN-webserver](https://clean.platform.moleculemaker.org/configuration). We use [CLEAN](https://github.com/tttianhao/CLEAN) with greedy ```max-separation``` approach for EC-class inference.
+
+### 3. ESM3
 
 For ESM3, please refer to [ESM3-official](https://github.com/evolutionaryscale/esm). For each sequence representation of generated catalytic pocket, we use [ESM3](https://github.com/evolutionaryscale/esm) to recover the full enzyme sequence (by 'entire' meaning, we recover 32 residues into a protein sequence of 200 residues). We can perform enzyme retrieval on both (1) pocket enzymes sequences and (2) full enzyme sequences.
 
