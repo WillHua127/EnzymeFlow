@@ -22,7 +22,7 @@ tqdm==4.65.0
 
 1. ```configs.py``` contain all training configurations and hyperparameters.
 
-2. Train model using ```train_ddp.py``` for parallal training with multi-gpus (we trained with 4gpus).
+2. Train model using ```train_ddp.py``` for parallal training with multi-gpus (we trained with 4 A40 gpus).
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 train_ddp.py
 ```
