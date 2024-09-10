@@ -4,9 +4,9 @@
 ![enzymeflow](./image/enzymeflow.jpg)
 
 
-### Model Training on Enzyme Pocket Dataset
+### Model Training
 
-### Model Sampling Pockets
+### Model Inference
 
 
 ## Data
