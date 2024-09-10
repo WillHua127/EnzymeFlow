@@ -33,6 +33,9 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 
 ### Model Inference
 
+For RFDiff-AA and LigandMPNN, please refer to [link](https://github.com/baker-laboratory/rf_diffusion_all_atom) and [link](https://github.com/dauparas/LigandMPNN?tab=readme-ov-file). For each enzyme-reaction pair in evaluation data, we use [RFDiff-AA](https://github.com/baker-laboratory/rf_diffusion_all_atom) to generate 100 catalytic pockets for each unique substrate. Then we use [LigandMPNN](https://github.com/dauparas/LigandMPNN?tab=readme-ov-file) to perform sequence prediction (inverse folding) on the generated catalytic pockets post-hoc.
+
+
 
 ## Data
 ![pocket](./image/pocket.jpg)
