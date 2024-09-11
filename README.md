@@ -80,7 +80,7 @@ For ESM3, please refer to [ESM3-official](https://github.com/evolutionaryscale/e
    
 ### 4. Processed Metadata.
 
-   $~~~~$ (a) Processed data will be saved into ```./data/processed``` folder, with:
+   $~~~~$ (a) Processed metadata will be saved into ```./data/processed``` folder, including:
    
    $~~~~$ (b) processed enzyme in ```./data/processed/protein``` folder.
 
