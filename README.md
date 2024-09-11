@@ -52,6 +52,10 @@ Baselines like [RFDiffAA](https://github.com/baker-laboratory/rf_diffusion_all_a
 
 For ESM3, please refer to [ESM3-official](https://github.com/evolutionaryscale/esm). For each sequence representation of generated catalytic pocket, we use [ESM3](https://github.com/evolutionaryscale/esm) to recover the full enzyme sequence (by 'entire' meaning, we recover 32 residues into a protein sequence of 200 residues). We can perform enzyme retrieval on both (1) pocket enzymes sequences and (2) full enzyme sequences.
 
+### 4. Reaction-specified Enzyme Retrieval
+
+For ranking-based retrieval evluation, please refer to [RectZyme-paper](https://www.arxiv.org/pdf/2408.13659).
+
 
 
 ## Data Preparation
