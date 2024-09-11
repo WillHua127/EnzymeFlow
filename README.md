@@ -71,7 +71,7 @@ For ESM3, please refer to [ESM3-official](https://github.com/evolutionaryscale/e
    $~~~~$ (c) [vocab.txt](https://github.com/WillHua127/EnzymeFlow/blob/main/data/vocab.txt) in ```./data``` is co-evolution vocabulary.
 
 
-### When the raw enzyme pockets, molecules, co-evolution data are ready, then
+### When the raw data--enzyme pockets, molecules, co-evolution--are ready, we proceed to process them into metadata.
 
 ### 3. Process rawdata into metadata by running ```process_data.py```.
    
