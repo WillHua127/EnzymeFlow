@@ -22,14 +22,16 @@ tqdm==4.65.0
 
 ## Model Training
 
-1. ```configs.py``` contain all training configurations and hyperparameters.
+1. Please refer to the below, to see how we prepare training data.
 
-2. Train model using ```train_ddp.py``` for parallal training with multi-gpus (we trained with 4 A40 gpus).
+2. ```configs.py``` contain all training configurations and hyperparameters.
+
+3. Train model using ```train_ddp.py``` for parallal training with multi-gpus (we trained with 4 A40 gpus).
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 train_ddp.py
 ```
 
-3. The training loads [pre-trained model](https://github.com/WillHua127/EnzymeFlow/tree/main/Pretrain). You may also train from scratch by setting the configs in ```configs.py```, setting parameters ```ckpt_from_pretrain=False pretrain_ckpt_path=None```.
+4. The training loads [pre-trained model](https://github.com/WillHua127/EnzymeFlow/tree/main/Pretrain). You may also train from scratch by setting the configs in ```configs.py```, setting parameters ```ckpt_from_pretrain=False pretrain_ckpt_path=None```.
 
 
 
