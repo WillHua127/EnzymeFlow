@@ -54,7 +54,7 @@ For ESM3, please refer to [ESM3-official](https://github.com/evolutionaryscale/e
 
 ### 4. Reaction-specified Enzyme Retrieval
 
-For ranking-based retrieval evluation, please refer to [RectZyme-paper](https://www.arxiv.org/pdf/2408.13659).
+For ranking-based retrieval evluation, please refer to [RectZyme-paper](https://www.arxiv.org/pdf/2408.13659). We train a enzyme retrieval model with enzyme features computed by [ESM2-650M](https://github.com/facebookresearch/esm) and [MAT-2D](https://github.com/ardigen/MAT). The training data are those of 60%-homology (~50,000 positive samples); [evaluation data](https://github.com/WillHua127/EnzymeFlow/blob/main/data/eval-data_cutoff-0.1_unique-subs-enz_100.csv) are those unique, non-repeated ones; training negative samples are training data that are not annotated to catalyze a specific reaction like [ClipZyme](https://arxiv.org/pdf/2402.06748); evaluation do not use negative data.
 
 
 
