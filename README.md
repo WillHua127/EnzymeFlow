@@ -49,16 +49,16 @@ For ESM3, please refer to [ESM3-official](https://github.com/evolutionaryscale/e
 
 
 
-# Data
+## Data Preparation
 ![pocket](./image/pocket.jpg)
 
-### 1. Enzyme Pocket and Substrate, Product Molecule Rawdata
+### 1. Enzyme Pocket, Substrate Molecule, Product Molecule Rawdata
    
    $~~~~$ (a) [molecule_structures](https://github.com/WillHua127/EnzymeFlow/tree/main/data/molecule_structures) folder in ```./data``` contain all substrate and product molecules, can be downloaded at link.
    
    $~~~~$ (b) [pocket_fixed_residues/pdb_10A](https://github.com/WillHua127/EnzymeFlow/tree/main/data/pocket_fixed_residues/pdb_10A) folder in ```./data``` contain all enzyme pockets, can be downloaded at link.
 
-   $~~~~$ (c) We provide [rawdata-40%homology](https://github.com/WillHua127/EnzymeFlow/blob/main/data/rawdata_cutoff-0.4.csv) and [metadata-40%homology](https://github.com/WillHua127/EnzymeFlow/blob/main/data/metadata_cutoff-0.4.csv) with 40% homologys in ```./data``` folder. More rawdata can be downloaded at link.
+   $~~~~$ (c) We provide [rawdata-40%homology](https://github.com/WillHua127/EnzymeFlow/blob/main/data/rawdata_cutoff-0.4.csv) and [metadata-40%homology](https://github.com/WillHua127/EnzymeFlow/blob/main/data/metadata_cutoff-0.4.csv) with 40% homologys in ```./data``` folder. More rawdata (50%, 60%, 80%, 90% homologys) can be downloaded at link.
 
 
 
