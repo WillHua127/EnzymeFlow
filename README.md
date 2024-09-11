@@ -37,6 +37,9 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 
 ## Model Inference
 
+
+## Baseline Experiments
+
 ### 1. RFDiff-AA
    
 For RFDiffAA and LigandMPNN, please refer to [RFDiffAA-official](https://github.com/baker-laboratory/rf_diffusion_all_atom) and [LigandMPNN-official](https://github.com/dauparas/LigandMPNN?tab=readme-ov-file). For each enzyme-reaction pair in evaluation data, we use [RFDiffAA](https://github.com/baker-laboratory/rf_diffusion_all_atom) with default params to generate 100 catalytic pockets (with 32 residues) for each unique substrate. Then we use [LigandMPNN](https://github.com/dauparas/LigandMPNN?tab=readme-ov-file) to perform sequence prediction (inverse folding) on the generated catalytic pockets post-hoc.
