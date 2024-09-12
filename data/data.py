@@ -76,7 +76,7 @@ def from_pdb_string(pdb_fh: str, chain_id: Optional[str] = None) -> Protein:
                     f"index {res.id[1]}. These are not supported."
                 )
             res_shortname = residue_constants.restype_3to1.get(res.resname, "X")
-            if res.resname == 'HOH' and res_shortname == 'X':
+            if res.resname == 'HOH' or res_shortname == 'X':
                 continue
             
             restype_idx = residue_constants.restype_order.get(
