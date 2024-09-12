@@ -14,17 +14,17 @@ parser = argparse.ArgumentParser(description='processing script.')
 parser.add_argument(
     '--pdb_dir',
     type=str,
-    default='./data/pocket_fixed_residues/pdb_10A')
+    default='data/raw_eval_data/protein')
 
 parser.add_argument(
     '--mol_dir',
     type=str,
-    default='./data/moleucle_structures')
+    default='data/raw_eval_data/molecule')
 
 parser.add_argument(
     '--meta_dir',
     type=str,
-    default='./data')
+    default='data')
 
 parser.add_argument(
     '--vocab_file_name',
@@ -44,12 +44,13 @@ parser.add_argument(
 parser.add_argument(
     '--rawdata_file_name',
     type=str,
-    default='rawdata.csv')
+    default='eval-data_cutoff-0.1_unique-subs-enz_100.csv')
 
 parser.add_argument(
     '--metadata_file_name',
     type=str,
-    default='metadata.csv')
+    default='metadata_eval.csv')
+
 
 RXN_GAP_CHAR = ' '
 ENZYME_GAP_CHAR = '-'
@@ -277,7 +278,7 @@ def main(args):
     reaction_msa = read_pkl(reaction_msa_path)
     enzyme_msa = read_pkl(enzyme_msa_path)
     
-    meta_processed_dir = os.path.join(args.meta_dir, "processed")
+    meta_processed_dir = os.path.join(args.meta_dir, "processed_eval")
     if not os.path.isdir(meta_processed_dir):
         os.makedirs(meta_processed_dir, exist_ok=True)
 
