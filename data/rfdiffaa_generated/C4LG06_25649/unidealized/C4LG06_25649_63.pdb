@@ -1,0 +1,324 @@
+MODEL        0
+ATOM      1  N   GLN A   1     -11.643 -10.961  31.525  1.00  0.00
+ATOM      2  CA  GLN A   1     -10.349 -11.091  30.865  1.00  0.00
+ATOM      3  C   GLN A   1     -10.448 -10.742  29.386  1.00  0.00
+ATOM      4  N   ALA A   2     -11.492 -11.048  28.740  1.00  0.00
+ATOM      5  CA  ALA A   2     -11.703 -10.729  27.333  1.00  0.00
+ATOM      6  C   ALA A   2     -11.969  -9.242  27.139  1.00  0.00
+ATOM      7  N   ALA A   3     -12.656  -8.683  28.140  1.00  0.00
+ATOM      8  CA  ALA A   3     -12.934  -7.252  28.111  1.00  0.00
+ATOM      9  C   ALA A   3     -11.684  -6.441  28.427  1.00  0.00
+ATOM     10  N   SER A   4     -10.891  -6.950  29.301  1.00  0.00
+ATOM     11  CA  SER A   4      -9.641  -6.278  29.637  1.00  0.00
+ATOM     12  C   SER A   4      -8.635  -6.383  28.498  1.00  0.00
+ATOM     13  N   ALA A   5      -8.635  -7.408  27.768  1.00  0.00
+ATOM     14  CA  ALA A   5      -7.776  -7.573  26.602  1.00  0.00
+ATOM     15  C   ALA A   5      -8.095  -6.537  25.532  1.00  0.00
+ATOM     16  N   ALA A   6      -9.383  -6.280  25.361  1.00  0.00
+ATOM     17  CA  ALA A   6      -9.798  -5.308  24.357  1.00  0.00
+ATOM     18  C   ALA A   6      -9.495  -3.885  24.810  1.00  0.00
+ATOM     19  N   ALA A   7      -9.579  -3.697  26.091  1.00  0.00
+ATOM     20  CA  ALA A   7      -9.274  -2.381  26.638  1.00  0.00
+ATOM     21  C   ALA A   7      -7.781  -2.086  26.563  1.00  0.00
+ATOM     22  N   ALA A   8      -6.996  -3.065  26.775  1.00  0.00
+ATOM     23  CA  ALA A   8      -5.547  -2.921  26.703  1.00  0.00
+ATOM     24  C   ALA A   8      -5.087  -2.682  25.271  1.00  0.00
+ATOM     25  N   ALA A   9      -5.750  -3.362  24.341  1.00  0.00
+ATOM     26  CA  ALA A   9      -5.434  -3.177  22.930  1.00  0.00
+ATOM     27  C   ALA A   9      -5.824  -1.783  22.456  1.00  0.00
+ATOM     28  N   ALA A  10      -6.944  -1.296  22.980  1.00  0.00
+ATOM     29  CA  ALA A  10      -7.393   0.043  22.621  1.00  0.00
+ATOM     30  C   ALA A  10      -6.426   1.104  23.130  1.00  0.00
+ATOM     31  N   ALA A  11      -5.949   0.870  24.342  1.00  0.00
+ATOM     32  CA  ALA A  11      -5.015   1.815  24.943  1.00  0.00
+ATOM     33  C   ALA A  11      -3.684   1.820  24.203  1.00  0.00
+ATOM     34  N   SER A  12      -3.246   0.677  23.787  1.00  0.00
+ATOM     35  CA  SER A  12      -1.988   0.575  23.057  1.00  0.00
+ATOM     36  C   SER A  12      -2.107   1.187  21.667  1.00  0.00
+ATOM     37  N   ALA A  13      -3.251   0.987  21.054  1.00  0.00
+ATOM     38  CA  ALA A  13      -3.490   1.544  19.728  1.00  0.00
+ATOM     39  C   ALA A  13      -3.502   3.067  19.764  1.00  0.00
+ATOM     40  N   SER A  14      -4.117   3.601  20.819  1.00  0.00
+ATOM     41  CA  SER A  14      -4.193   5.052  20.939  1.00  0.00
+ATOM     42  C   SER A  14      -2.831   5.650  21.264  1.00  0.00
+ATOM     43  N   ALA A  15      -2.014   4.932  21.983  1.00  0.00
+ATOM     44  CA  ALA A  15      -0.671   5.399  22.305  1.00  0.00
+ATOM     45  C   ALA A  15       0.238   5.348  21.084  1.00  0.00
+ATOM     46  N   ALA A  16       0.027   4.395  20.246  1.00  0.00
+ATOM     47  CA  ALA A  16       0.804   4.274  19.018  1.00  0.00
+ATOM     48  C   ALA A  16       0.428   5.360  18.019  1.00  0.00
+ATOM     49  N   ALA A  17      -0.812   5.805  18.081  1.00  0.00
+ATOM     50  CA  ALA A  17      -1.255   6.903  17.230  1.00  0.00
+ATOM     51  C   ALA A  17      -0.573   8.209  17.617  1.00  0.00
+ATOM     52  N   ALA A  18      -0.338   8.369  18.909  1.00  0.00
+ATOM     53  CA  ALA A  18       0.368   9.545  19.404  1.00  0.00
+ATOM     54  C   ALA A  18       1.810   9.570  18.912  1.00  0.00
+ATOM     55  N   SER A  19       2.391   8.350  18.904  1.00  0.00
+ATOM     56  CA  SER A  19       3.769   8.234  18.444  1.00  0.00
+ATOM     57  C   SER A  19       3.869   8.459  16.940  1.00  0.00
+ATOM     58  N   ALA A  20       2.843   8.022  16.228  1.00  0.00
+ATOM     59  CA  ALA A  20       2.805   8.216  14.784  1.00  0.00
+ATOM     60  C   ALA A  20       2.762   9.696  14.427  1.00  0.00
+ATOM     61  N   ALA A  21       2.026  10.458  15.190  1.00  0.00
+ATOM     62  CA  ALA A  21       1.931  11.895  14.960  1.00  0.00
+ATOM     63  C   ALA A  21       3.290  12.567  15.112  1.00  0.00
+ATOM     64  N   SER A  22       4.056  12.080  16.129  1.00  0.00
+ATOM     65  CA  SER A  22       5.380  12.648  16.353  1.00  0.00
+ATOM     66  C   SER A  22       6.332  12.293  15.218  1.00  0.00
+ATOM     67  N   ALA A  23       6.158  11.093  14.697  1.00  0.00
+ATOM     68  CA  ALA A  23       6.989  10.652  13.583  1.00  0.00
+ATOM     69  C   ALA A  23       6.711  11.472  12.330  1.00  0.00
+ATOM     70  N   ALA A  24       5.442  11.806  12.139  1.00  0.00
+ATOM     71  CA  ALA A  24       5.069  12.617  10.986  1.00  0.00
+ATOM     72  C   ALA A  24       5.640  14.025  11.095  1.00  0.00
+ATOM     73  N   ALA A  25       5.679  14.553  12.293  1.00  0.00
+ATOM     74  CA  ALA A  25       6.245  15.877  12.524  1.00  0.00
+ATOM     75  C   ALA A  25       7.712  15.927  12.120  1.00  0.00
+ATOM     76  N   SER A  26       8.423  14.811  12.503  1.00  0.00
+ATOM     77  CA  SER A  26       9.844  14.745  12.179  1.00  0.00
+ATOM     78  C   SER A  26      10.062  14.631  10.676  1.00  0.00
+ATOM     79  N   ALA A  27       9.180  13.896  10.027  1.00  0.00
+ATOM     80  CA  ALA A  27       9.294  13.735   8.583  1.00  0.00
+ATOM     81  C   ALA A  27       9.069  15.058   7.862  1.00  0.00
+ATOM     82  N   ALA A  28       8.067  15.784   8.362  1.00  0.00
+ATOM     83  CA  ALA A  28       7.755  17.071   7.750  1.00  0.00
+ATOM     84  C   ALA A  28       8.908  18.052   7.914  1.00  0.00
+ATOM     85  N   ALA A  29       9.524  17.986   9.059  1.00  0.00
+ATOM     86  CA  ALA A  29      10.644  18.879   9.331  1.00  0.00
+ATOM     87  C   ALA A  29      11.820  18.585   8.408  1.00  0.00
+ATOM     88  N   SER A  30      11.979  17.295   8.095  1.00  0.00
+ATOM     89  CA  SER A  30      13.113  16.888   7.273  1.00  0.00
+ATOM     90  C   SER A  30      12.786  17.003   5.789  1.00  0.00
+ATOM     91  N   ALA A  31      11.648  17.360   5.423  1.00  0.00
+ATOM     92  CA  ALA A  31      11.283  17.479   4.016  1.00  0.00
+ATOM     93  C   ALA A  31      12.033  18.623   3.347  1.00  0.00
+ATOM     94  N   SER A  32      12.221  19.183   2.946  1.00  0.00
+ATOM     95  CA  SER A  32      13.024  20.227   2.321  1.00  0.00
+ATOM     96  C   SER A  32      14.237  20.574   3.175  1.00  0.00
+HETATM   97 N    UNL B 315      -1.241   2.651  -0.006  1.00  0.00           N
+HETATM   98 N    UNL B 315      -0.111  -2.776   4.018  1.00  0.00           N
+HETATM   99 N    UNL B 315       2.089  -3.544   3.904  1.00  0.00           N
+HETATM  100 C    UNL B 315      -2.076  11.353  -3.670  1.00  0.00           C
+HETATM  101 C    UNL B 315      -1.390  10.224  -4.400  1.00  0.00           C
+HETATM  102 C    UNL B 315      -0.979   9.161  -3.410  1.00  0.00           C
+HETATM  103 C    UNL B 315      -0.248   8.054  -4.130  1.00  0.00           C
+HETATM  104 C    UNL B 315       0.165   6.990  -3.144  1.00  0.00           C
+HETATM  105 C    UNL B 315       1.397   6.286  -3.655  1.00  0.00           C
+HETATM  106 C    UNL B 315       1.733   5.120  -2.762  1.00  0.00           C
+HETATM  107 C    UNL B 315       3.229   4.996  -2.634  1.00  0.00           C
+HETATM  108 C    UNL B 315       3.579   3.650  -2.049  1.00  0.00           C
+HETATM  109 C    UNL B 315       4.847   3.762  -1.232  1.00  0.00           C
+HETATM  110 C    UNL B 315       5.210   2.431  -0.615  1.00  0.00           C
+HETATM  111 C    UNL B 315       4.167   1.963   0.378  1.00  0.00           C
+HETATM  112 C    UNL B 315       4.321   2.671   1.703  1.00  0.00           C
+HETATM  113 C    UNL B 315       3.177   2.299   2.621  1.00  0.00           C
+HETATM  114 C    UNL B 315       1.963   3.134   2.288  1.00  0.00           C
+HETATM  115 C    UNL B 315       0.728   2.518   2.900  1.00  0.00           C
+HETATM  116 C    UNL B 315      -0.508   3.045   2.219  1.00  0.00           C
+HETATM  117 C    UNL B 315      -0.882   2.042   1.168  1.00  0.00           C
+HETATM  118 C    UNL B 315      -1.562   1.861  -1.180  1.00  0.00           C
+HETATM  119 C    UNL B 315      -3.021   1.975  -1.588  1.00  0.00           C
+HETATM  120 C    UNL B 315      -2.776   2.793  -3.728  1.00  0.00           C
+HETATM  121 C    UNL B 315      -1.355   2.245  -3.708  1.00  0.00           C
+HETATM  122 C    UNL B 315      -0.710   2.364  -2.337  1.00  0.00           C
+HETATM  123 C    UNL B 315       0.759   0.551  -2.561  1.00  0.00           C
+HETATM  124 C    UNL B 315       2.182   0.130  -2.426  1.00  0.00           C
+HETATM  125 C    UNL B 315       2.203  -1.149  -1.626  1.00  0.00           C
+HETATM  126 C    UNL B 315       3.245  -2.081  -2.203  1.00  0.00           C
+HETATM  127 C    UNL B 315       2.895  -3.506  -1.851  1.00  0.00           C
+HETATM  128 C    UNL B 315       4.156  -4.302  -1.578  1.00  0.00           C
+HETATM  129 C    UNL B 315       3.848  -5.320  -0.513  1.00  0.00           C
+HETATM  130 C    UNL B 315       5.026  -6.230  -0.254  1.00  0.00           C
+HETATM  131 C    UNL B 315       4.780  -7.061   0.988  1.00  0.00           C
+HETATM  132 C    UNL B 315       3.666  -8.061   0.775  1.00  0.00           C
+HETATM  133 C    UNL B 315       2.362  -7.495   1.299  1.00  0.00           C
+HETATM  134 C    UNL B 315       1.185  -8.053   0.540  1.00  0.00           C
+HETATM  135 C    UNL B 315       1.101  -7.488  -0.867  1.00  0.00           C
+HETATM  136 C    UNL B 315       0.338  -6.180  -0.875  1.00  0.00           C
+HETATM  137 C    UNL B 315      -0.908  -6.324  -1.722  1.00  0.00           C
+HETATM  138 C    UNL B 315      -1.460  -4.963  -2.069  1.00  0.00           C
+HETATM  139 C    UNL B 315      -3.736   1.836  -4.415  1.00  0.00           C
+HETATM  140 C    UNL B 315      -3.159  -0.664   2.452  1.00  0.00           C
+HETATM  141 C    UNL B 315      -2.890  -0.988   3.906  1.00  0.00           C
+HETATM  142 C    UNL B 315      -1.237  -2.344   4.820  1.00  0.00           C
+HETATM  143 C    UNL B 315      -1.041  -0.952   5.402  1.00  0.00           C
+HETATM  144 C    UNL B 315      -1.737  -0.126   4.352  1.00  0.00           C
+HETATM  145 C    UNL B 315      -0.215  -2.891   2.659  1.00  0.00           C
+HETATM  146 C    UNL B 315       0.810  -3.246   1.878  1.00  0.00           C
+HETATM  147 C    UNL B 315       2.111  -3.504   2.527  1.00  0.00           C
+HETATM  148 C    UNL B 315       1.036  -3.153   4.701  1.00  0.00           C
+HETATM  149 O    UNL B 315      -0.847   0.833   1.364  1.00  0.00           O
+HETATM  150 O    UNL B 315      -3.247   3.108  -2.415  1.00  0.00           O
+HETATM  151 O    UNL B 315       0.634   1.873  -2.260  1.00  0.00           O
+HETATM  152 O    UNL B 315      -0.159  -0.174  -2.908  1.00  0.00           O
+HETATM  153 O    UNL B 315       2.602  -0.811  -0.304  1.00  0.00           O
+HETATM  154 O    UNL B 315      -0.571   2.951  -4.659  1.00  0.00           O
+HETATM  155 O    UNL B 315      -3.200   1.413  -5.665  1.00  0.00           O
+HETATM  156 O    UNL B 315      -3.965   1.796  -0.574  1.00  0.00           O
+HETATM  157 O    UNL B 315      -5.288   0.283  -2.186  1.00  0.00           O
+HETATM  158 O    UNL B 315      -3.619  -0.656  -0.409  1.00  0.00           O
+HETATM  159 O    UNL B 315      -2.495  -2.850   0.404  1.00  0.00           O
+HETATM  160 O    UNL B 315      -4.146  -1.505   1.889  1.00  0.00           O
+HETATM  161 O    UNL B 315      -2.444  -2.348   4.049  1.00  0.00           O
+HETATM  162 O    UNL B 315      -2.156   1.141   4.798  1.00  0.00           O
+HETATM  163 O    UNL B 315      -1.731  -0.874   6.646  1.00  0.00           O
+HETATM  164 O    UNL B 315       3.130  -3.666   1.865  1.00  0.00           O
+HETATM  165 O    UNL B 315       1.110  -3.135   5.931  1.00  0.00           O
+HETATM  166 O    UNL B 315      -5.079  -2.729  -0.141  1.00  0.00           O
+HETATM  167 O    UNL B 315      -5.816   0.386   0.411  1.00  0.00           O
+HETATM  168 O    UNL B 315       0.676   2.851   4.276  1.00  0.00           O
+HETATM  169 P    UNL B 315      -4.746   0.400  -0.790  1.00  0.00           P
+HETATM  170 P    UNL B 315      -3.743  -2.017   0.413  1.00  0.00           P
+CONECT   97  117
+CONECT   97  118
+CONECT   98  142
+CONECT   98  145
+CONECT   98  148
+CONECT   99  147
+CONECT   99  148
+CONECT  100  101
+CONECT  101  100
+CONECT  101  102
+CONECT  102  101
+CONECT  102  103
+CONECT  103  102
+CONECT  103  104
+CONECT  104  103
+CONECT  104  105
+CONECT  105  104
+CONECT  105  106
+CONECT  106  105
+CONECT  106  107
+CONECT  107  106
+CONECT  107  108
+CONECT  108  107
+CONECT  108  109
+CONECT  109  108
+CONECT  109  110
+CONECT  110  109
+CONECT  110  111
+CONECT  111  110
+CONECT  111  112
+CONECT  112  111
+CONECT  112  113
+CONECT  113  112
+CONECT  113  114
+CONECT  114  113
+CONECT  114  115
+CONECT  115  114
+CONECT  115  116
+CONECT  115  168
+CONECT  116  115
+CONECT  116  117
+CONECT  117   97
+CONECT  117  116
+CONECT  117  149
+CONECT  118   97
+CONECT  118  119
+CONECT  118  122
+CONECT  119  118
+CONECT  119  150
+CONECT  119  156
+CONECT  120  121
+CONECT  120  139
+CONECT  120  150
+CONECT  121  120
+CONECT  121  122
+CONECT  121  154
+CONECT  122  118
+CONECT  122  121
+CONECT  122  151
+CONECT  123  124
+CONECT  123  151
+CONECT  123  152
+CONECT  124  123
+CONECT  124  125
+CONECT  125  124
+CONECT  125  126
+CONECT  125  153
+CONECT  126  125
+CONECT  126  127
+CONECT  127  126
+CONECT  127  128
+CONECT  128  127
+CONECT  128  129
+CONECT  129  128
+CONECT  129  130
+CONECT  130  129
+CONECT  130  131
+CONECT  131  130
+CONECT  131  132
+CONECT  132  131
+CONECT  132  133
+CONECT  133  132
+CONECT  133  134
+CONECT  134  133
+CONECT  134  135
+CONECT  135  134
+CONECT  135  136
+CONECT  136  135
+CONECT  136  137
+CONECT  137  136
+CONECT  137  138
+CONECT  138  137
+CONECT  139  120
+CONECT  139  155
+CONECT  140  141
+CONECT  140  160
+CONECT  141  140
+CONECT  141  144
+CONECT  141  161
+CONECT  142   98
+CONECT  142  143
+CONECT  142  161
+CONECT  143  142
+CONECT  143  144
+CONECT  143  163
+CONECT  144  141
+CONECT  144  143
+CONECT  144  162
+CONECT  145   98
+CONECT  145  146
+CONECT  146  145
+CONECT  146  147
+CONECT  147   99
+CONECT  147  146
+CONECT  147  164
+CONECT  148   98
+CONECT  148   99
+CONECT  148  165
+CONECT  149  117
+CONECT  150  119
+CONECT  150  120
+CONECT  151  122
+CONECT  151  123
+CONECT  152  123
+CONECT  153  125
+CONECT  154  121
+CONECT  155  139
+CONECT  156  119
+CONECT  156  169
+CONECT  157  169
+CONECT  158  169
+CONECT  158  170
+CONECT  159  170
+CONECT  160  140
+CONECT  160  170
+CONECT  161  141
+CONECT  161  142
+CONECT  162  144
+CONECT  163  143
+CONECT  164  147
+CONECT  165  148
+CONECT  166  170
+CONECT  167  169
+CONECT  168  115
+CONECT  169  156
+CONECT  169  157
+CONECT  169  158
+CONECT  169  167
+CONECT  170  158
+CONECT  170  159
+CONECT  170  160
+CONECT  170  166
+ENDMDL
