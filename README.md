@@ -56,9 +56,9 @@ Baselines like [RFDiffAA](https://github.com/baker-laboratory/rf_diffusion_all_a
 
 For ESM3, please refer to [ESM3-official](https://github.com/evolutionaryscale/esm). For each sequence representation of generated catalytic pocket, we use [ESM3](https://github.com/evolutionaryscale/esm) to recover the full enzyme sequence (by 'entire' meaning, we recover 32 residues into a protein sequence of 200 residues). We can perform enzyme retrieval on both (1) pocket enzymes sequences and (2) full enzyme sequences. ESM3 prompting is at [link](https://colab.research.google.com/github/evolutionaryscale/esm/blob/main/examples/generate.ipynb#scrollTo=vZZo9K_5CIjd).
 
-### 4. Reaction-specified Enzyme Retrieval
+### 4. Pocket-specified Enzyme CLIP
 
-For ranking-based retrieval evluation, please refer to [RectZyme-paper](https://www.arxiv.org/pdf/2408.13659). We train a enzyme retrieval model with enzyme features computed by [ESM2-650M](https://github.com/facebookresearch/esm) and [MAT-2D](https://github.com/ardigen/MAT). The training data are those of 60%-homology (~50,000 positive samples); [evaluation data](https://github.com/WillHua127/EnzymeFlow/blob/main/data/eval-data_cutoff-0.1_unique-subs-enz_100.csv) are those unique, non-repeated ones; training negative samples are training data that are not annotated to catalyze a specific reaction like [ClipZyme](https://arxiv.org/pdf/2402.06748); evaluation do not use negative data.
+For ranking-based retrieval evaluation, please refer to [RectZyme-paper](https://www.arxiv.org/pdf/2408.13659). We train a enzyme retrieval model with enzyme features computed by latest [ESM3](https://github.com/evolutionaryscale/esm) and [MAT-2D](https://github.com/ardigen/MAT). The training data are those of 60%-homology (~50,000 positive samples); [evaluation data](https://github.com/WillHua127/EnzymeFlow/blob/main/data/eval-data_cutoff-0.1_unique-subs-enz_100.csv) are those unique, non-repeated ones; training negative samples are training data that are not annotated to catalyze a specific reaction like [ClipZyme](https://arxiv.org/pdf/2402.06748); evaluation do not use negative data.
 
 
 
