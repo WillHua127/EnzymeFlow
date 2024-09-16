@@ -46,6 +46,8 @@ EnzymeFlow inference [demo](https://github.com/WillHua127/EnzymeFlow/blob/main/e
    
 For RFDiffAA and LigandMPNN, please refer to [RFDiffAA-official](https://github.com/baker-laboratory/rf_diffusion_all_atom) and [LigandMPNN-official](https://github.com/dauparas/LigandMPNN?tab=readme-ov-file). For each enzyme-reaction pair in evaluation data, we use [RFDiffAA](https://github.com/baker-laboratory/rf_diffusion_all_atom) with default params to generate 100 catalytic pockets (with 32 residues) for each unique substrate. Then we use [LigandMPNN](https://github.com/dauparas/LigandMPNN?tab=readme-ov-file) to perform sequence prediction (inverse folding) on the generated catalytic pockets post-hoc.
 
+We provide some RFDiffAA-generated samples in ```./data/rfdiffaa_generated``` folder at [link](https://github.com/WillHua127/EnzymeFlow/tree/main/data/rfdiffaa_generated).
+
 ### 2. Enzyme Commission Classifcation
 
 Baselines like [RFDiffAA](https://github.com/baker-laboratory/rf_diffusion_all_atom) or others do not generate EC-class for the design of catalytic pockets. We use CLEAN to infer the EC-class of sequence representations of these pockets. For CLEAN, please refer to [CLEAN-official](https://github.com/tttianhao/CLEAN) or [CLEAN-webserver](https://clean.platform.moleculemaker.org/configuration). We use [CLEAN](https://github.com/tttianhao/CLEAN) with greedy ```max-separation``` approach for EC-class inference.
