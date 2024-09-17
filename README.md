@@ -48,6 +48,8 @@ For RFDiffAA and LigandMPNN, please refer to [RFDiffAA-official](https://github.
 
 We provide some RFDiffAA-generated samples in ```./data/rfdiffaa_generated``` folder at [link](https://github.com/WillHua127/EnzymeFlow/tree/main/data/rfdiffaa_generated).
 
+We provide LigandMPNN-generated sequences for RFDiffAA-generated pockets at [file](https://github.com/WillHua127/EnzymeFlow/blob/main/data/rfdiffaa_generated/rfdiffaa_generated.fasta).
+
 ### 2. Enzyme Commission Classifcation
 
 Baselines like [RFDiffAA](https://github.com/baker-laboratory/rf_diffusion_all_atom) or others do not generate EC-class for the design of catalytic pockets. We use CLEAN to infer the EC-class of sequence representations of these pockets. For CLEAN, please refer to [CLEAN-official](https://github.com/tttianhao/CLEAN) or [CLEAN-webserver](https://clean.platform.moleculemaker.org/configuration). We use [CLEAN](https://github.com/tttianhao/CLEAN) with greedy ```max-separation``` approach for EC-class inference.
