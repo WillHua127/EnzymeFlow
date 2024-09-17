@@ -48,7 +48,9 @@ For RFDiffAA and LigandMPNN, please refer to [RFDiffAA-official](https://github.
 
 We provide some RFDiffAA-generated samples in ```./data/rfdiffaa_generated``` folder at [link](https://github.com/WillHua127/EnzymeFlow/tree/main/data/rfdiffaa_generated).
 
-We provide LigandMPNN-generated sequences for RFDiffAA-generated pockets at [file](https://github.com/WillHua127/EnzymeFlow/blob/main/data/rfdiffaa_generated/rfdiffaa_generated.fasta).
+We provide LigandMPNN-predicted sequences for RFDiffAA-generated pockets at [file](https://github.com/WillHua127/EnzymeFlow/blob/main/data/rfdiffaa_generated/rfdiffaa_generated.fasta).
+
+We provide CLEAN-predicted EC-Class for LigandMPNN-predicted pocket sequences at [file](https://github.com/WillHua127/EnzymeFlow/blob/main/data/rfdiffaa_generated/rfdiffaa_generated_maxsep.csv).
 
 ### 2. Enzyme Commission Classifcation
 
