@@ -1,5 +1,6 @@
 # EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow-Matching and Co-Evolutionary Dynamics
 
+Paper at [arxiv](https://arxiv.org/abs/2410.00327).
 Fine-tuning or Training on Catalytic Pockets. 
 Pre-training can be found at [link](https://github.com/WillHua127/EnzymeFlow/tree/main/Pretrain). 
 
