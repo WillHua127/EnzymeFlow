@@ -394,18 +394,12 @@ def sampling_inference(
     with torch.no_grad():
         model_out = main_network(sample_feats)
         aa_logits = model_out['amino_acid']
-        # aa_logits = aa_logits[..., 0:-1]
-        # aa_logits = F.softmax(aa_logits / args.eval.aa_temp, dim=-1)
-        # aa_pred = torch.multinomial(aa_logits.reshape(n_batch * n_res, -1), num_samples=1).reshape(n_batch, n_res)
         aa_logits[..., args.masked_aa_token_idx] = -1e10
         aa_pred = aa_logits.argmax(-1)
         rigid_pred = model_out['rigids_tensor']
         atom37_pred = all_atom.to_atom37(rigid_pred)[0]
         if args.flow_ec:
             ec_logits = model_out['ec']
-            # ec_logits = ec_logits[..., 0:-1]
-            # ec_logits = F.softmax(ec_logits / args.eval.ec_temp, dim=-1)
-            # ec_pred = torch.multinomial(ec_logits.reshape(n_batch, -1), num_samples=1).reshape(n_batch, -1)
             ec_logits[..., args.ec.masked_ec_token_idx] = -1e10
             ec_pred = ec_logits.argmax(-1).reshape(-1, 1)
 

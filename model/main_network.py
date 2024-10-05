@@ -441,12 +441,12 @@ class ProteinLigandNetwork(nn.Module):
             nn.LayerNorm(self.node_embed_size),
         )
 
-        self.node_pair_embedder = nn.Sequential(
-            nn.Linear(self.node_embed_size, self.node_embed_size),
-            nn.ReLU(),
-            nn.Linear(self.node_embed_size, self.node_embed_size),
-            nn.LayerNorm(self.node_embed_size),
-        )
+        # self.node_pair_embedder = nn.Sequential(
+        #     nn.Linear(self.node_embed_size, self.node_embed_size),
+        #     nn.ReLU(),
+        #     nn.Linear(self.node_embed_size, self.node_embed_size),
+        #     nn.LayerNorm(self.node_embed_size),
+        # )
 
         self.node_fusion = nn.Sequential(
             nn.Linear(self.node_embed_size + self.node_embed_size, self.node_embed_size),
