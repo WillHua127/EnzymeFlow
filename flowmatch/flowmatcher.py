@@ -4,7 +4,6 @@ from typing import Union
 import numpy as np
 import torch
 import torch.nn.functional as F
-from einops import rearrange
 from functorch import vmap
 from geomstats.geometry.special_orthogonal import SpecialOrthogonal
 from scipy.spatial.transform import Rotation
@@ -324,41 +323,6 @@ class R3FM:
         if isinstance(t, float):
             t = torch.tensor(t)
         return torch.sqrt(self.g**2 * t * (1 - t) + self.min_sigma**2)
-
-    def forward_marginal(
-        self,
-        x_1: torch.Tensor,
-        t: torch.Tensor,
-        x_0: Union[torch.Tensor, None] = None,
-        flow_mask=None,
-        center_of_mass=None,
-        
-    ):
-        x_1 = torch.from_numpy(x_1)
-        if x_1.dim() == 3:
-            seq_len = x_1.shape[1]
-            x_1 = rearrange(x_1, "t s d -> (t s) d", d=3)
-            t = t.repeat_interleave(seq_len)
-
-        x_1 = self._scale(x_1)
-        x_0 = torch.randn_like(x_1) if x_0 is None else torch.from_numpy(x_0)
-        if center_of_mass is not None:
-            x_0 = x_0 - center_of_mass
-        else:
-            x_0 = x_0 - x_0.mean(-2, keepdim=True)
-
-        # x_t = self.r3_cfm.sample_xt(x_0, x_1, t, epsilon=0)
-        x_t = (1 - t) * x_0 + t * x_1
-        
-        x_t = self._unscale(x_t)
-
-        if flow_mask is not None:
-            x_t = self._apply_mask(x_t, x_1, flow_mask[..., None])
-
-            ut = self._apply_mask(
-                ut, torch.zeros_like(ut).to(x_t.device), flow_mask[..., None]
-            )
-        return x_t
 
     
     def reverse_euler(
