@@ -8,19 +8,25 @@ Pre-training can be found at [link](https://github.com/WillHua127/EnzymeFlow/tre
 
 ### Requirement
 ```
-python>=3.10
+python>=3.11
 CUDA=12.1
 torch==2.4.1 (>=2.0.0)
-numpy==1.24.4
-pytorch-warmup==0.1.1
-POT==0.9.4
-rdkit==2023.9.5
-biopython==1.84
 torch_geometric==2.4.0
-tmtools==0.2.0
-scipy==1.14.0
-geomstats==2.7.0
-tqdm==4.65.0
+
+pip install mdtraj==1.10.0 (do first will install numpy, scipy as well, install later might raise dependency issues)
+pip install pytorch-warmup==0.1.1
+pip install POT==0.9.4
+pip install rdkit==2023.9.5
+pip install biopython==1.84
+pip install tmtools==0.2.0
+pip install geomstats==2.7.0
+pip install dm-tree==0.1.8
+pip install ml_collections==0.1.1
+pip install OpenMM
+pip install einx
+pip install einops
+
+conda install conda-forge::pdbfixer
 ```
 
 ## Model Training
