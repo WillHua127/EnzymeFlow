@@ -5,7 +5,7 @@ class Args:
     #1 data arguments
     min_t = 0.0
     max_t = 1.0
-    num_t = 50
+    num_t = 100
 
     #2 flow matcher arguments
     ot_plan = False
