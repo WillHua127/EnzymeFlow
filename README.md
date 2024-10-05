@@ -8,6 +8,8 @@ Pre-training can be found at [link](https://github.com/WillHua127/EnzymeFlow/tre
 
 ### Requirement
 ```
+python>=3.10
+CUDA=12.1
 torch==2.4.1 (>=2.0.0)
 numpy==1.24.4
 pytorch-warmup==0.1.1
