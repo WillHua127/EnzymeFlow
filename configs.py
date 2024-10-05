@@ -18,8 +18,8 @@ class Args:
     logger_dir = 'logger'
     ckpt_dir = 'checkpoint'
     ckpt_from_pretrain = False
-    pretrain_ckpt_path = 'checkpoint/enzymeflow_toy.ckpt'
-    ckpt_path = 'checkpoint/enzymeflow_toy.ckpt'
+    pretrain_ckpt_path = 'checkpoint/enzymeflow_mini.ckpt'
+    ckpt_path = 'checkpoint/enzymeflow_mini.ckpt'
     early_stopping = 50
     seed = 42
     

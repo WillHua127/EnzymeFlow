@@ -572,8 +572,7 @@ if __name__ == "__main__":
                                 flow_mask=res_mask,
                             )
 
-            amino_acid_recovery = compute_amino_acid_recovery_rate(pred_aatype, gt_aatype, res_mask)
-            files.append([f'{generated_prot}_{seed}', feats_1["ec_traj"][0].item()+1, ec_class, pred_aatype, gt_aatype, amino_acid_recovery, pred_prot_path, gt_prot_path, sample_metrics])
+            files.append([f'{generated_prot}_{seed}', feats_1["ec_traj"][0].item()+1, ec_class, pred_aatype, gt_aatype, pred_prot_path, gt_prot_path, sample_metrics])
             
-        df = pd.DataFrame(files, columns=['name', 'pred_ec', 'gt_ec', 'pred_aa', 'gt_aa', 'aar', 'pred_path', 'gt_path', 'metrics'])
+        df = pd.DataFrame(files, columns=['name', 'pred_ec', 'gt_ec', 'pred_aa', 'gt_aa', 'pred_path', 'gt_path', 'metrics'])
         df.to_csv('enzymeflow_generated_stats.csv', index=False)

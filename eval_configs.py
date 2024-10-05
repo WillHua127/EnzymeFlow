@@ -1,6 +1,6 @@
 class Args:
     metadata_path = 'data/metadata_eval.csv'
-    ckpt_path = 'checkpoint/enzymeflow.ckpt'
+    ckpt_path = 'checkpoint/enzymeflow_mini.ckpt'
     
     #1 data arguments
     min_t = 0.0
