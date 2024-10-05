@@ -34,6 +34,9 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 
 4. The training loads [pre-trained model](https://github.com/WillHua127/EnzymeFlow/tree/main/Pretrain). You may also train from scratch by setting the configs in ```configs.py```, setting parameters ```ckpt_from_pretrain=False pretrain_ckpt_path=None```.
 
+## Model Weights
+
+A mini-EnzymeFlow checkpoint is put in [Google drive](https://drive.google.com/file/d/1GwrjGTg8aKSIZxKDQ4Dcyg0xPG3-ypvK/view?usp=sharing). Once you download it, put it under ```./checkpoint``` folder.
 
 
 ## Model Inference
