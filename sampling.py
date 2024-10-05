@@ -11,19 +11,20 @@ import numpy as np
 import pandas as pd
 
 from eval_configs import *
-from inference import *
+from inference import self_conditioning_fn, set_t_feats
 
 from ofold.np import residue_constants
 
 from flowmatch import flowmatcher
 
-from model import main_network
-from flowmatch.data import utils as du
 from evaluation.metrics import *
 from evaluation.loss import *
-from data.utils import *
-from data.loader import *
-from data.data import *
+
+from model import main_network
+from flowmatch.data import utils as du
+from data.utils import write_prot_to_pdb, write_pkl, read_pkl
+from data.loader import create_data_loader, get_csv_row
+from data.data import process_pdb, parse_chain_feats
 
 from Bio.PDB import PDBParser, PDBIO, Superimposer
 
