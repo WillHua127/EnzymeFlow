@@ -134,9 +134,20 @@ For ranking-based retrieval evaluation, please refer to [RectZyme-paper](https:/
 
 
 
-
-
-
 ## Further Statistics
 ![distribution](./image/distribution.jpg)
 
+
+
+## License
+No Commercial use of either the model nor generated data, details to be found in license.md.
+
+## Citation
+```
+@article{hua2024enzymeflow,
+  title={EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow Matching and Co-Evolutionary Dynamics},
+  author={Hua, Chenqing and Liu, Yong and Zhang, Dinghuai and Zhang, Odin and Luan, Sitao and Yang, Kevin K and Wolf, Guy and Precup, Doina and Zheng, Shuangjia},
+  journal={arXiv preprint arXiv:2410.00327},
+  year={2024}
+}
+```
