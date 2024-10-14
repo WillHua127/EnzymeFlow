@@ -4,7 +4,7 @@ By exercising the Licensed Rights, You accept and agree to be bound by the terms
 
 
 # Use Restrictions
-No Commercial Use.  You may only use the AI Model, Contributions, Derivative Works, Outputs and Output Derivatives (as defined below) for Non-Commercial Purposes. For the avoidance of doubt, structure tokens are also considered Outputs and may only be used for Non-Commercial Purposes. Any commercial use of any of the foregoing, including, without limitation, any use by, on behalf of or for any Commercial Entity or to facilitate the development of any product or service to be sold or made available for a fee, is strictly prohibited under this Agreement.
+No Commercial Use.  You may only use the AI Model, Contributions, Derivative Works, Outputs and Output Derivatives (as defined below) for Non-Commercial Purposes. Any commercial use of any of the foregoing, including, without limitation, any use by, on behalf of or for any Commercial Entity or to facilitate the development of any product or service to be sold or made available for a fee, is strictly prohibited under this Agreement.
 
 No Use in Drug Development or Discovery. Without limiting the foregoing, You may not use the AI Model or any Contributions, Derivative Works, Outputs or Output Derivatives in or in connection with: (i) the development (at any stage) or discovery of any drug, medication or pharmaceutical of any kind; (ii) any molecular or biological target, hit or lead identification; (iii) drug candidate selection; or (iv) lead optimization.
 
