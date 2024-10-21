@@ -51,6 +51,8 @@ A mini-EnzymeFlow checkpoint is put in [Google drive](https://drive.google.com/f
 
 EnzymeFlow inference [demo](https://github.com/WillHua127/EnzymeFlow/blob/main/enzymeflow_demo.ipynb) is provided in jupyter notebook.
 
+Unseen reaction inference [demo](https://github.com/WillHua127/EnzymeFlow/blob/main/unseen_reaction.ipynb) is provided in jupyter notebook, you only need to generate ligand.mol2 file.
+
 
 ## Baseline Experiments
 
