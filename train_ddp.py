@@ -416,7 +416,7 @@ if __name__ == "__main__":
     os.makedirs(args.eval.eval_dir, exist_ok=True)
     
     # uniform
-    agrs.flow_ec = True
+    args.flow_ec = True
     if args.discrete_flow_type == 'uniform':
         args.num_aa_type = 20
         args.masked_aa_token_idx = None
