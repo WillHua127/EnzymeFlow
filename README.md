@@ -1,8 +1,8 @@
-# EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow-Matching and Co-Evolutionary Dynamics
+#  EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow-Matching and Co-Evolutionary Dynamics
 
-Paper at [arxiv](https://arxiv.org/abs/2410.00327).
-Fine-tuning or Training on Catalytic Pockets. 
-Pre-training can be found at [link](https://github.com/WillHua127/EnzymeFlow/tree/main/Pretrain). 
+
+### Follow my newest [GENZyme](https://github.com/WillHua127/GENzyme) on pocket design + pocket inpainting for full enzyme design.
+####  EnzymeFlow Paper at [arxiv](https://arxiv.org/abs/2410.00327).
 
 ![enzymeflow](./image/enzymeflow.jpg)
 
