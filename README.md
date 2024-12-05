@@ -1,7 +1,7 @@
 #  EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow-Matching and Co-Evolutionary Dynamics
 
 
-### Follow my recent [GENZyme](https://github.com/WillHua127/GENzyme) on pocket design + pocket inpainting for full enzyme design. GENZyme is trained with AlphaFold losses with more geometric regularizations, less atomic clashes and more reasonable atom-atom distances.
+### Follow my recent [GENzyme](https://github.com/WillHua127/GENzyme) on pocket design + pocket inpainting for full enzyme design. GENzyme is trained with AlphaFold losses with more geometric regularizations, less atomic clashes and more reasonable atom-atom distances.
 ####  EnzymeFlow Paper at [arxiv](https://arxiv.org/abs/2410.00327).
 
 ![enzymeflow](./image/enzymeflow.jpg)
