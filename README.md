@@ -2,6 +2,7 @@
 
 
 ### Follow my recent [GENzyme](https://github.com/WillHua127/GENzyme) on pocket design + pocket inpainting for full enzyme design. GENzyme is trained with AlphaFold losses with more geometric regularizations, less atomic clashes and more reasonable atom-atom distances.
+### Follow my neurips [ReactZyme](https://github.com/WillHua127/ReactZyme) on enzyme-reaction dataset and benchmark.
 ####  EnzymeFlow Paper at [arxiv](https://arxiv.org/abs/2410.00327).
 
 ![enzymeflow](./image/enzymeflow.jpg)
